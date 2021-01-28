@@ -47,7 +47,10 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+
 *.meta
+#But not source file with postfix. which is everything but a folder
+!*.*.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
